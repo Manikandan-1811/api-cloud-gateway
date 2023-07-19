@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:configserver:http://localhost:9196
   application:
     name: GATEWAY-SERVICE
   cloud:
